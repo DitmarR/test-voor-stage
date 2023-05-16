@@ -1,0 +1,45 @@
+body {
+     background-color: aliceblue;
+ }
+ 
+ h1 {
+     position: relative;
+     right: 70px;
+     font-family:Arial, Helvetica, sans-serif;
+ }
+ 
+ img {
+     position: relative;
+     right: 60px;
+     bottom: -75px;
+     width: 488px;
+ }
+ 
+ p {
+     position: relative;
+     left: 10px;
+ }
+ 
+ .nothing {
+     position: inherit;
+     left: 50px;
+     margin: 10px;
+ }
+
+.herf {
+    position: relative;
+    bottom: 565px;
+    margin: 5px;
+    
+}
+
+.cont {
+    color:blue; 
+    position: relative; 
+    left: 745px;
+    top: 315px;   
+    text-align: center; 
+    font-size: 40px; 
+    width: 300px;
+}
+ 
