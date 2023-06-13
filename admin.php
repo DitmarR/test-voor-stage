@@ -63,11 +63,13 @@ if($user_data['usertype'] == "user") {
         }
 
         .color {
-            color: black;
-            height: 60px;
-            margin-right: 50px;
-            margin-bottom: 120px;
+            text-indent: -9999px;  
         }
+
+        .itemsContainer {
+            position: relative;
+            left: 20px;
+        }   
 
         .back {
             font-size: 18px;
@@ -108,11 +110,15 @@ if($user_data['usertype'] == "user") {
     <tr>
         <td>
             <center>
+            <ol id="itemsContainer"></ol>
     <div id="lsOutput" class="color"></div>
+
     </center>
     </td>
     </tr>
 </fieldset>
+
+<ol id="itemsContainer"></ol>
 
 <a href="main.php" class="back">back</a>
 

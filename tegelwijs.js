@@ -217,3 +217,13 @@ function getContent() {
 
    
 
+const keys = Object.keys(localStorage);
+
+keys.sort();
+
+const orderedItems = keys.map(key => localStorage.getItem(key));
+
+const itemsHtml = orderedItems.map(item => `<li>${item}</li>`).join('');
+    
+const itemsContainer = document.getElementById('itemsContainer');
+itemsContainer.innerHTML = itemsHtml;
